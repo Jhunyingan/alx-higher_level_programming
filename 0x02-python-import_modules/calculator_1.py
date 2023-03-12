@@ -1,18 +1,53 @@
 #!/usr/bin/python3
 
-def add(x, y):
-    """Returns the sum of x and y."""
-    return x + y
+def add(a, b):
+    """My addition function
 
-def sub(x, y):
-    """Returns the difference of x and y."""
-    return x - y
+    Args:
+        a: first integer
+        b: second integer
 
-def mul(x, y):
-    """Returns the product of x and y."""
-    return x * y
+    Returns:
+        The return value. a + b
+    """
+    return (a + b)
 
-def div(x, y):
-    """Returns the quotient of x and y."""
-    return int(x / y)
+
+def sub(a, b):
+    """My subtraction function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a - b
+    """
+    return (a - b)
+
+
+def mul(a, b):
+    """My multiplication function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a * b
+    """
+    return (a * b)
+
+
+def div(a, b):
+    """My division function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a / b
+    """
+    return int(a / b)
 

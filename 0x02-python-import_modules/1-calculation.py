@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 # Import the necessary functions from the '1-calculation.py' file
-from 1-calculation import add, sub, mul, div
+from calculation import add, sub, mul, div
 
 if __name__ == "__main__":
     # Define the values of 'a' and 'b'
